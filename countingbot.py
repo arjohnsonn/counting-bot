@@ -12,7 +12,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.channel.id != 622999468861685760:
+    if message.channel.id != 622998981915574283:
         return
 
     if message.content.startswith("~start"):
