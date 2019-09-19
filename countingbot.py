@@ -26,7 +26,7 @@ async def counter(max, message):
     count = 109253
     while count != 10000000000000000:
         await message.channel.send(str(count))
-        time.sleep(1)
+        time.sleep(2)
         count = count+1
 
 client.run('NjIyOTgxNTg1NTI4MDI5MTg3.XX7y4g.wJGLZWuaZvCNrMyF2YPaO5gdWVw')
