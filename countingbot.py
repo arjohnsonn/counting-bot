@@ -23,7 +23,7 @@ async def on_message(message):
         await client.logout()
 
 async def counter(max, message):
-    count = 282095
+    count = 303005
     while count != 10000000000000000:
         await message.channel.send(str(count))
         time.sleep(1)
